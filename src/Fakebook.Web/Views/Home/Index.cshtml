@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Items";
+}
+
+<ol>
+    @foreach (var item in Model)
+    {
+        <li>@item.Key -> @item.Value</li>
+    }
+</ol>
